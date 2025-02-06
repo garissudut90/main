@@ -59,7 +59,7 @@ https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
-https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
+// https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 
 #EXTINF:-1 group-title="Local" tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="http://gobu.my.id/assets/images/channel/antv.png",ANTV
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -68,7 +68,10 @@ https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 https://atemeshield1-voe.sysln.id/live/eds/ANTV/mpd/ANTV.mpd
 
 #EXTINF:-1 group-title="Local" tvg-id="TV.One.id" tvg-name="tvOne News Id" tvg-logo="http://gobu.my.id/assets/images/channel/tvone.png",TV One
-https://flv.intechmedia.net/live/ch109.m3u8|user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MDA5MmI1NjctOWMyMS0zNDYyLTk0NDAtODM5NGQ1ZjdlZWRi
+https://cempedak-live-cdn.mncnow.id/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd
 
 #EXTINF:-1 group-title="Local" tvg-id="Kompas.TV.id" tvg-name="Kompas TV" tvg-logo="http://gobu.my.id/assets/images/channel/kompastv.png",Kompas TV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -86,7 +89,7 @@ https://cempedak-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 
 #EXTINF:-1 group-title="Local" tvg-id="Net.TV.id" tvg-name="Net." tvg-logo="http://gobu.my.id/assets/images/channel/net-hd.png",Net.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
-https://flv.intechmedia.net/live/ch114.m3u8|user-agent=Mozilla/5.0
+http://khano.nng.cloudns.us/live/m3u8/id/6cdb3402d11f58d.m3u8
 // http://op-group1-swiftservehd-1.dens.tv/h/h223/index.m3u8
 
 #EXTINF:-1 group-title="Local" tvg-id="Cnn.Indonesia.id" tvg-name="CNN Indonesia" tvg-logo="http://gobu.my.id/assets/images/channel/cnnindonesia.png",CNN Indonesia
